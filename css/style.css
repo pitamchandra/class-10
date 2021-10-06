@@ -126,6 +126,9 @@ h1,h2,h3,h4,h5,h6{
 	color: #fff;
 	letter-spacing: 2px;
 }
+.mobile-display{
+	display: none;
+}
 .banner .banner-inner p{
 	font-size: 24px;
 	font-weight: 400;
@@ -392,4 +395,317 @@ h1,h2,h3,h4,h5,h6{
 /*******************************
     **** Responsive css start *************
 ******************************/
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /*media query css start*/
+  .header-top .details {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .header-top .details ul li a{
+  	margin-right: 22px;
+  }
+  .header-top .social-icons{
+  	text-align: center;
+  }
+  .header-top .social-icons ul{
+  	padding-left: 0;
+  }
+  .header-top .social-icons ul li a{
+  	margin: 0 12px;
+  }
+  .navbar-collapse {
+    background: #6f869e;
+    padding: 30px 0;
+  }
+  .navbar-light .navbar-toggler{
+  	border-color: #506A85;
+  }
+  .main-menu .navbar-nav {
+    margin-left: 0;
+    text-align: center;
+  }
+  .main-menu .navbar-light .navbar-nav .nav-link{
+  	color: #fff;
+  	margin-left: 0;
+  }
+  .main-menu .navbar .d-flex {
+    display: block !important;
+    text-align: center;
+  }
+  .main-menu .fas{
+  	color: #fff;
+  }
+  .banner .banner-inner{
+  	padding: 90px 0;
+  }
+  .banner .banner-inner h1{
+  	font-size: 44px;
+  	line-height: 50px;
+  }
+  .desktop-display{
+  	display: none;
+  }
+  .mobile-display{
+  	display: block;
+  }
+  .banner .banner-inner p{
+  	font-size: 18px;
+  	line-height: 28px;
+  }
+  .banner .banner-inner .btn-info {
+    padding: 7px 25px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .myh2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .myp {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .clean .clean-inner .clean-content h3{
+  	font-size: 24px;
+  	line-height: 34px;
+  }
+  .clean .clean-inner .clean-content p{
+  	margin-bottom: 0;
+  }
+  .work .work-content{
+  	padding: 20px 5px;
+  }
+  .work .work-content h5{
+  	font-size: 18px;
+  }
+  .owl-theme .owl-dots .owl-dot span{
+  	width: 10px !important;
+  	height: 10px !important;
+  	margin: 5px;
+  }
+  .contact-inner .btn-info {
+    padding: 7px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .footer .footer-inner{
+  	margin: 15px 0;
+  }
+  .copyright{
+  	padding: 20px 0;
+  }
+  .copyright .copy-inner{
+  	margin: 0;
+  }
+  .copyright .copy-inner h6{
+  	text-align: center;
+  	margin-bottom: 10px;
+  }
+  .copyright .copy-inner ul{
+  	text-align: center;
+  	padding-left: 0px;
+  }
+  .copyright .copy-inner ul li a{
+  	margin: 0 5px;
+  }
+
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* media query css start */
+
+  .header-top .details {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .header-top .details ul li a{
+  	margin-right: 22px;
+  }
+  .header-top .social-icons{
+  	text-align: center;
+  }
+  .header-top .social-icons ul{
+  	padding-left: 0;
+  }
+  .header-top .social-icons ul li a{
+  	margin: 0 12px;
+  }
+  .navbar-collapse {
+    background: #6f869e;
+    padding: 30px 0;
+  }
+  .navbar-light .navbar-toggler{
+  	border-color: #506A85;
+  }
+  .main-menu .navbar-nav {
+    margin-left: 0;
+    text-align: center;
+  }
+  .main-menu .navbar-light .navbar-nav .nav-link{
+  	color: #fff;
+  	margin-left: 0;
+  }
+  .main-menu .navbar .d-flex {
+    display: block !important;
+    text-align: center;
+  }
+  .main-menu .fas{
+  	color: #fff;
+  }
+  .banner .banner-inner{
+  	padding: 90px 0;
+  }
+  .banner .banner-inner h1{
+  	font-size: 44px;
+  	line-height: 50px;
+  }
+  .desktop-display{
+  	display: none;
+  }
+  .mobile-display{
+  	display: block;
+  }
+  .banner .banner-inner p{
+  	font-size: 18px;
+  	line-height: 28px;
+  }
+  .banner .banner-inner .btn-info {
+    padding: 7px 25px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .myh2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .myp {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .clean .clean-inner .clean-content h3{
+  	font-size: 24px;
+  	line-height: 34px;
+  }
+  .clean .clean-inner .clean-content p{
+  	margin-bottom: 0;
+  }
+  .work .work-content{
+  	padding: 20px 5px;
+  }
+  .work .work-content h5{
+  	font-size: 18px;
+  }
+  .owl-theme .owl-dots .owl-dot span{
+  	width: 10px !important;
+  	height: 10px !important;
+  	margin: 5px;
+  }
+  .contact-inner .btn-info {
+    padding: 7px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .footer .footer-inner{
+  	margin: 15px 0;
+  }
+  .copyright{
+  	padding: 20px 0;
+  }
+  .copyright .copy-inner{
+  	margin: 0;
+  }
+  .copyright .copy-inner h6{
+  	text-align: center;
+  	margin-bottom: 10px;
+  }
+  .copyright .copy-inner ul{
+  	text-align: center;
+  	padding-left: 0px;
+  }
+  .copyright .copy-inner ul li a{
+  	margin: 0 5px;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads 
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1023px){
+  
+  /* media query css start */
+
+  .navbar-collapse {
+    padding: 30px 0;
+  }
+  .navbar-light .navbar-toggler{
+  	border-color: #506A85;
+  }
+  .main-menu .navbar-nav {
+    margin-left: 0;
+    text-align: center;
+  }
+  .main-menu .navbar-light .navbar-nav .nav-link{
+  	color: #506A85;
+  	margin-left: 0;
+  }
+  .main-menu .navbar .d-flex {
+    display: block !important;
+    text-align: center;
+  }
+  .main-menu .fas{
+  	color: #506A85;
+  }
+  .banner .banner-inner{
+  	padding: 90px 0;
+  }
+  .banner .banner-inner h1{
+  	font-size: 44px;
+  	line-height: 50px;
+  }
+  .desktop-display{
+  	display: none;
+  }
+  .mobile-display{
+  	display: block;
+  }
+  .banner .banner-inner p{
+  	font-size: 18px;
+  	line-height: 28px;
+  }
+  .banner .banner-inner .btn-info {
+    padding: 7px 25px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .footer-inner .form input{
+  	padding: 5px;
+  	border: 1px;
+  }
+  .footer-inner .form{
+  	text-align: left;
+  }
+  .footer-inner .form .btn-info{
+  	margin-top: 10px;
+  }
+  
+}
+
+
 
