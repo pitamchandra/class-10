@@ -60,6 +60,9 @@ h1,h2,h3,h4,h5,h6{
 	color: #506a85;
 	margin-right: 25px;
 }
+.header-top .details ul li a:hover{
+	color: #00bc9c;
+}
 .header-top .details ul li a i{
 	padding-right: 5px;
 }
@@ -80,7 +83,7 @@ h1,h2,h3,h4,h5,h6{
 	margin-left: 25px;
 }
 .header-top .social-icons ul li a:hover{
-	color: #000;
+	color: #00bc9c;
 }
 .main-menu .bg-light{
 	background: #fff;
@@ -96,9 +99,15 @@ h1,h2,h3,h4,h5,h6{
 	color: #506a85;
 	margin-left: 20px;
 }
+.main-menu .navbar-light .navbar-nav .nav-link:hover{
+	color: #00bc9c;
+}
 .main-menu .fas{
 	font-size: 16px;
 	color: #506a85;
+}
+.main-menu .fas:hover{
+	color: #00bc9c;
 }
 
 /*******************************
@@ -406,10 +415,12 @@ h1,h2,h3,h4,h5,h6{
   /*media query css start*/
   .header-top .details {
     padding-bottom: 10px;
-    text-align: center;
+  }
+  .header-top .details ul li:last-child{
+  	float: right;
   }
   .header-top .details ul li a{
-  	margin-right: 22px;
+  	margin-right: 0px;
   }
   .header-top .social-icons{
   	text-align: center;
@@ -530,10 +541,12 @@ h1,h2,h3,h4,h5,h6{
 
   .header-top .details {
     padding-bottom: 10px;
-    text-align: center;
+  }
+  .header-top .details ul li:last-child{
+  	float: right;
   }
   .header-top .details ul li a{
-  	margin-right: 22px;
+  	margin-right: 0px;
   }
   .header-top .social-icons{
   	text-align: center;
@@ -694,15 +707,12 @@ h1,h2,h3,h4,h5,h6{
     font-size: 16px;
     margin-top: 20px;
   }
-  .footer-inner .form input{
-  	padding: 5px;
-  	border: 1px;
+  .work .work-content {
+    padding: 20px 15px;
   }
-  .footer-inner .form{
-  	text-align: left;
-  }
-  .footer-inner .form .btn-info{
-  	margin-top: 10px;
+  .footer .col-md-3 {
+    width: 50%;
+    padding: 20px;
   }
   
 }
