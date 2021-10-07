@@ -130,6 +130,15 @@ h1,h2,h3,h4,h5,h6{
 .banner .carousel-caption{
 	bottom: 30%;
 }
+.banner .text-left{
+  text-align: left;
+}
+.banner .text-center{
+  text-align: center;
+}
+.banner .text-right{
+  text-align: right;
+}
 .banner .banner-inner h1{
 	font-size: 78px;
 	font-weight: 700;
