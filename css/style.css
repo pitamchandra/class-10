@@ -119,13 +119,16 @@ h1,h2,h3,h4,h5,h6{
 ******************************/
 .banner{
 	width: 100%;
-	padding: 20px 0;
-	background: url(../img/banner.jpg) center top no-repeat;
-	background-size: cover;
 }
-.banner .banner-inner{
-	padding: 120px 0;
-	text-align: center;
+.banner .container-fluid{
+	padding: 0px;
+}
+.banner .carousel-indicators [data-bs-target]{
+	background: #00bc9c;
+	background-clip: padding-box;
+}
+.banner .carousel-caption{
+	bottom: 30%;
 }
 .banner .banner-inner h1{
 	font-size: 78px;
@@ -213,6 +216,9 @@ h1,h2,h3,h4,h5,h6{
 .work .work-inner{
 	width: 100%;
 	margin-top: 50px;
+  border: 1px solid #e6e9ed;
+  border-radius: 10px;
+  overflow: hidden;
 }
 .work .work-inner img{
 	width: 100%;
@@ -220,7 +226,6 @@ h1,h2,h3,h4,h5,h6{
 .work .work-content{
 	width: 100%;
 	background: #fff;
-	border: 1px solid #e6e9ed;
 	padding: 20px 0;
 	text-align: center;
 } 
@@ -323,12 +328,19 @@ h1,h2,h3,h4,h5,h6{
 .footer .footer-inner .footer-img img{
 	width: 92%;
 }
-.footer-inner .information a{
+.footer-inner .information ul{
 	display: block;
-	font-weight: 400;
+  padding-left: 0;
 }
-.footer-inner .information a i{
-	padding-right: 5px;
+.footer-inner .information ul li{
+	display: inline-block;
+  line-height: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #a3b1bf;
+}
+.footer-inner .information ul li i{
+  padding-right: 5px;
 }
 .footer-inner .form input{
 	width: 100%;
@@ -344,7 +356,7 @@ h1,h2,h3,h4,h5,h6{
 	text-align: right;
 }
 .footer-inner .form .btn-info{
-	padding: 3px 8px;
+	  padding: 3px 8px;
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
