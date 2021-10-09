@@ -747,5 +747,22 @@ h1,h2,h3,h4,h5,h6{
   
 }
 
+/****************************
+      **** plugin css start hare ****
+ * *******************************/
 
+/* stickup plugin css code start */
 
+.isStuck{
+    left:0px;
+    width:100%;
+    background: #f5f7fa;
+    border-bottom: 1px solid #e6e9ed;
+}
+.navbar-wrapper {
+  margin-top:0px;
+  position: relative;
+  z-index: 15;
+  width: 100%;
+
+}
