@@ -160,7 +160,7 @@ h1,h2,h3,h4,h5,h6{
 	display: none;
 }
 .banner .banner-inner p{
-	font-size: 24px;
+	font-size: 23px;
 	font-weight: 400;
 	line-height: 34px;
 	color: #a3b1bf;
@@ -429,6 +429,18 @@ h1,h2,h3,h4,h5,h6{
 /*******************************
     **** copyright section end****
 ******************************/
+
+.scrool-top{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: #00BC9C;
+  color: #fff;
+}
+.scrool-top:hover{
+  background: #506A95;
+}
+
 
 
 /*******************************
