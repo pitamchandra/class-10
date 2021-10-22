@@ -398,5 +398,15 @@
         });
 
     </script>
+    <script>
+    	$(window).scroll(function(){
+			if($(window).scrollTop() > 200){
+				$('.scrool-top').fadeIn();
+			}
+			else{
+				$('.scrool-top').fadeOut();
+			}
+		});
+    </script>
 </body>
 </html>
